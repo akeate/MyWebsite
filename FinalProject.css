@@ -1,0 +1,112 @@
+.ul-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightskyblue;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 20px rgb(0,0,0);
+    
+}
+
+.li-nav {
+    float: left;
+    font-size: 20px;
+}
+
+.li-nav-right {
+    float: right;
+    font-size: 20px;
+}
+
+.li-a-nav {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition-duration:.4s;    
+}
+
+li a:hover {
+    background-color: lightblue;
+    color: black;
+    transform:scale(1.1)
+}
+
+body { 
+    background-color: lightyellow;
+    font-family:'Segoe UI';
+}
+
+button {
+    background-color:navy;
+    color:lightskyblue;
+    padding: 14px 16px;
+    display:block; 
+    border: transparent;
+}
+
+button:hover {
+    background-color: lightskyblue;
+    transform:scale(1.1);
+    color:navy;
+}
+
+#LinkedIn {
+    height:50px;
+    width:150px;
+}
+
+#AboutMe {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: Verdana;
+        font-size: 250%
+
+}
+
+#hssoccer{
+    height: 250px;
+    width: 500px;
+
+}
+
+#colsoccer{
+    height: 25%;
+    width: 50%
+}
+
+#spsoccer{
+    height: 30%;
+    width:50%
+}
+
+#hs{
+    height:30%;
+    width: 55%
+}
+
+
+
+/*
+#AboutMe {
+    
+}
+
+
+#WorkExperience {
+    
+}
+
+
+#Education{
+    
+}
